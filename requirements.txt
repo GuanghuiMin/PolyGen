@@ -1,0 +1,26 @@
+# Core ML and Scientific Computing
+torch>=1.9.0
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Visualization and Plotting
+matplotlib>=3.4.0
+
+# Machine Learning and Analysis
+scikit-learn>=1.0.0
+scipy>=1.7.0  # Required for pearson correlation in block_dist.py
+
+# Progress bars and utilities
+tqdm>=4.62.0
+
+# Optional dependencies (may be required based on usage)
+# Set Transformer and model architectures (if using external implementations)
+# transformers>=4.0.0  # Uncomment if using HuggingFace transformers
+
+# Development and debugging (optional)
+# jupyter>=1.0.0      # For notebook usage
+# ipykernel>=6.0.0    # For Jupyter kernel support
+
+# Note: The following are Python standard library modules and don't need installation:
+# - os, sys, math, random, csv, json, pathlib, typing, argparse
+# - collections, functools, warnings, copy, dataclasses
